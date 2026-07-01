@@ -1,4 +1,4 @@
-# Git & GitHub Demo
+# Dự án quản lý mã nguồn với GitHub
 
 Dự án mẫu phục vụ báo cáo **Quản lý mã nguồn với Git & GitHub**.
 
