@@ -11,7 +11,7 @@ git init
 git branch -M main
 git add .
 git commit -m "chore: khoi tao du an"
-git remote add origin https://github.com/TEN_TAI_KHOAN/git-github-demo.git
+git remote add origin https://github.com/dtc21h4801030067-cell/git-github-demo1.git
 git push -u origin main
 ```
 
