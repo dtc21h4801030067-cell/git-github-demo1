@@ -10,7 +10,11 @@ form.addEventListener('submit',(e)=>{
   const value=input.value.trim();
   if(!value){alert('Vui lòng nhập công việc.');return;}
   const li=document.createElement('li');
-  li.textContent=value;
-  list.appendChild(li);
-  input.value='';
+const li = document.createElement('li');
+li.textContent = value;
+
+li.addEventListener('click', () => {
+  li.classList.toggle('completed');
 });
+
+list.appendChild(li);});
