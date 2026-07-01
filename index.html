@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git & GitHub Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quản lý mã nguồn với Git & GitHub</h1>
+    <p>Dự án mẫu dùng để thực hành repository, commit, branch, merge và Pull Request.</p>
+    <button id="themeButton">Đổi giao diện</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Mục tiêu thực hành</h2>
+      <ul>
+        <li>Khởi tạo repository bằng Git.</li>
+        <li>Tạo commit có nội dung rõ ràng.</li>
+        <li>Phát triển tính năng trên branch riêng.</li>
+        <li>Push mã nguồn lên GitHub và tạo Pull Request.</li>
+        <li>Thực hành xử lý merge conflict.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Quy trình Git cơ bản</h2>
+      <p>Working Directory → Staging Area → Local Repository → GitHub</p>
+    </section>
+
+    <section>
+      <h2>Danh sách công việc</h2>
+      <form id="taskForm">
+        <input id="taskInput" type="text" placeholder="Nhập công việc">
+        <button type="submit">Thêm</button>
+      </form>
+      <ul id="taskList"></ul>
+    </section>
+
+    <section>
+      <h2>Thông tin sinh viên</h2>
+      <p><strong>Họ tên:</strong> Nguyễn Thành Long</p>
+      <p><strong>Lớp:</strong> KTPM K20B</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
