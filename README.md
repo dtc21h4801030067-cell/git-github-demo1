@@ -24,3 +24,4 @@ git push -u origin feature/task-list
 ```
 
 Sau đó tạo Pull Request trên GitHub.
+Nguyen Thanh Long
